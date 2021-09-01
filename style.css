@@ -12,6 +12,10 @@ body {
     border-left: 1px solid black;
     padding: 10px;
   }
+
+  input {
+    width: 65%;
+  }
   
   .jumbotron {
     text-align: center;
@@ -69,4 +73,6 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+
   
