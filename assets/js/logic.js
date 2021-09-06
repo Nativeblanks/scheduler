@@ -18,7 +18,6 @@ var times = [
     // loop for creating the rows, times , save button
     for (let i = 0; i < times.length; i++) {
         var row = $("<div class='row'>");
-        row.attr("data-type",data[i]);
         var hour = $('<div class ="hour">');
         var input = $('<textarea id="input">"');
         var saveBtn = $('<button class="saveBtn"> save</button>');
